@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 1000px;
+  background-color: black;
+  color: #00ff00; /*this affects all text on the page*/
+  text-align: center;
+  font-family: Courier New;
+}
+
+.name-page{
+  display: none;
+}
+
+.library {
+  display: none;
+}
+
+.final-page-2 {
+  display: none;
+}
+
+.final-page-1 {
+  display: none;
+}
+
+.header {
+  margin: 0 auto;
+  padding: 3em 0 0 0;
+  text-align: center;
+  /*I want to change the size*/
+}
+
+.final-text-1 {
+  margin: 0 auto;
+  padding: 10em 0 0 0;
+  text-align: center;
+}
+
+.final-text-2 {
+  margin: 0 auto;
+  padding: 10em 0 0 0;
+  text-align: center;
+}
+
+.middle-text {
+  margin: 0 auto;
+  text-align: center;
+  padding: 18em 0 0 0;
+}
+
+.buttons {
+  padding: 20px 50px 0 50px;
+}
+
+.yes-button, .no-button{
+  margin: 0 5px;
+}
+
+input[type=button] {
+  background-color: red;
+  /*border: width style color*/
+}
+
+input[type=button],  input[type=submit]  {
+  background-color: red;
+  /*border: width style color*/
+}
+
+.underlined {
+  style: underlined;
+}
+
+.player-input {
+  width: 300px;
+  background-color: black;
+  color: red;
+  border: none;
+  border-bottom: 3px solid red;
+}
+.player-input:focus {
+  outline: none;
+}
+.game-container{
+  text-align: left;
+}
+/*
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: red;
+  }
+}*/
